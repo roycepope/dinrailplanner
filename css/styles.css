@@ -144,6 +144,7 @@ h4, .h4 {
   }
 }
 
+
 h5, .h5 {
   font-size: 1.25rem;
 }
@@ -11295,6 +11296,22 @@ textarea.form-control-lg {
 
 #page-content-wrapper {
   min-width: 100vw;
+}
+
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
 }
 
 body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
