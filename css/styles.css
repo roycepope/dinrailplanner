@@ -11300,6 +11300,7 @@ textarea.form-control-lg {
 
 #mydiv {
   position: absolute;
+  cursor: move;
   z-index: 9;
   background-color: #f1f1f1;
   border: 1px solid #d3d3d3;
